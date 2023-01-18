@@ -1,0 +1,25 @@
+.board{
+    height: 800px;
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    border: 10px solid black;
+    outline: 5px solid brown;
+    outline-offset: 5px;
+}
+.row{
+    height: 100px;
+    width: 100%;
+    font-size: 70px;
+    text-align: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.black{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(168, 168, 168);
+}
